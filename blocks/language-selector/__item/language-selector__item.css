@@ -1,0 +1,8 @@
+.language-selector__item {
+  margin: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 400;
+}

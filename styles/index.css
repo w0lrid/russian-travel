@@ -1,4 +1,22 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(./variables.css);
+
+/* page styles start here */
+@import url(../blocks/page/page.css);
+
+/* header styles start here */
 @import url(../blocks/header/header.css);
+
+/* language-selector styles start here */
+@import url(../blocks/language-selector/language-selector.css);
+@import url(../blocks/language-selector/__item/language-selector__item.css);
+@import url(../blocks/language-selector/__item/_active/language-selector__item_active.css);
+
+/* introduction styles start here */
+@import url(../blocks/introduction/introduction.css);
+@import url(../blocks/introduction/__heading/introduction__heading.css);
+@import url(../blocks/introduction/__subtitle/introduction__subtitle.css);
+@import url(../blocks/introduction/__route-container/introduction__route-container.css);
+@import url(../blocks/introduction/__image/introduction__image.css);
+@import url(../blocks/introduction/__image-title/introduction__image-title.css);
