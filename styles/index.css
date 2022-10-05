@@ -2,8 +2,16 @@
 @import url(../vendor/fonts.css);
 @import url(./variables.css);
 
+/* list styles start here */
+@import url(../blocks/list/list.css);
+@import url(../blocks/list/__item/list__item.css);
+@import url(../blocks/list/__item/_accent/list__item_accent.css);
+
 /* page styles start here */
 @import url(../blocks/page/page.css);
+
+/* content styles start here */
+@import url(../blocks/content/content.css);
 
 /* header styles start here */
 @import url(../blocks/header/header.css);
@@ -20,3 +28,9 @@
 @import url(../blocks/introduction/__route-container/introduction__route-container.css);
 @import url(../blocks/introduction/__image/introduction__image.css);
 @import url(../blocks/introduction/__image-title/introduction__image-title.css);
+
+/* undiscovered styles start here */
+@import url(../blocks/undiscovered/undiscovered.css);
+@import url(../blocks/undiscovered/__title/undiscovered__title.css);
+@import url(../blocks/undiscovered/__paragraph/undiscovered__paragraph.css);
+@import url(../blocks/undiscovered/__statistic/undiscovered__statistic.css);
