@@ -2,35 +2,31 @@
 @import url(../vendor/fonts.css);
 @import url(./variables.css);
 
-/* list styles start here */
-@import url(../blocks/list/list.css);
-@import url(../blocks/list/__item/list__item.css);
-@import url(../blocks/list/__item/_accent/list__item_accent.css);
-
 /* page styles start here */
 @import url(../blocks/page/page.css);
+
+/* header styles start here */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /* content styles start here */
 @import url(../blocks/content/content.css);
 
-/* header styles start here */
-@import url(../blocks/header/header.css);
+/* lang-selector styles start here */
+@import url(../blocks/lang-selector/lang-selector.css);
 
-/* language-selector styles start here */
-@import url(../blocks/language-selector/language-selector.css);
-@import url(../blocks/language-selector/__item/language-selector__item.css);
-@import url(../blocks/language-selector/__item/_active/language-selector__item_active.css);
+/* lead styles start here */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
-/* introduction styles start here */
-@import url(../blocks/introduction/introduction.css);
-@import url(../blocks/introduction/__heading/introduction__heading.css);
-@import url(../blocks/introduction/__subtitle/introduction__subtitle.css);
-@import url(../blocks/introduction/__route-container/introduction__route-container.css);
-@import url(../blocks/introduction/__image/introduction__image.css);
-@import url(../blocks/introduction/__image-title/introduction__image-title.css);
-
-/* undiscovered styles start here */
-@import url(../blocks/undiscovered/undiscovered.css);
-@import url(../blocks/undiscovered/__title/undiscovered__title.css);
-@import url(../blocks/undiscovered/__paragraph/undiscovered__paragraph.css);
-@import url(../blocks/undiscovered/__statistic/undiscovered__statistic.css);
+/* intro styles start here */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item/_accent/list__item_accent.css);
