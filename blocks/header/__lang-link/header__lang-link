@@ -1,4 +1,4 @@
-.language-selector__item {
+.header__lang-link {
   margin: 0;
   text-decoration: none;
   text-transform: capitalize;
