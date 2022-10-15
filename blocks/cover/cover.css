@@ -1,6 +1,8 @@
 .cover {
+  grid-area: cover;
+  grid-column: 1 / -1;
   position: relative;
-  width: 1184px;
+  max-width: 1184px;
   height: 740px;
   display: flex;
   flex-direction: column;

@@ -1,4 +1,6 @@
 .lead {
+  grid-area: lead;
+  grid-column: 2 / -1;
   max-width: 984px;
   display: flex;
   flex-direction: column;

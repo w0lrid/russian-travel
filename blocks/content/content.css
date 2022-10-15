@@ -1,7 +1,13 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 90px);
+  grid-template-areas:
+    "lead"
+    "intro"
+    "photo-grid"
+    "places"
+    "cover";
+  justify-content: center;
   row-gap: 92px;
   margin-top: 56px;
   margin-bottom: 92px;

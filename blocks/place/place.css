@@ -1,7 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-rows: fit-content(152px) auto;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
   grid-template-areas:
     "title website"
     "image text";
