@@ -1,4 +1,5 @@
 .place__link {
+  color: var(--main-text);
   line-height: 22px;
   font-size: 18px;
   font-weight: 400;

@@ -1,0 +1,6 @@
+.places {
+  max-width: 984px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 80px;
+}
