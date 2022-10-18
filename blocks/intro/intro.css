@@ -1,5 +1,4 @@
 .intro {
-  grid-area: intro;
-  grid-column: 2 / 9;
-  justify-self: start;
+  width: 690px;
+  padding-top: 92px;
 }

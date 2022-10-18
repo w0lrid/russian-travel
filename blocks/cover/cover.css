@@ -1,6 +1,4 @@
 .cover {
-  grid-area: cover;
-  grid-column: 1 / -1;
   position: relative;
   max-width: 1184px;
   height: 740px;
