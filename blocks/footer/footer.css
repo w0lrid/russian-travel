@@ -1,6 +1,23 @@
 .footer {
+  margin: 0 48px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    margin-left: 16px;
+    padding-top: 64px;
+    row-gap: 48px;
+  }
 }

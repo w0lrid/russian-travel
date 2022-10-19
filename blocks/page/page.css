@@ -3,9 +3,6 @@ body {
 }
 
 .page {
-  max-width: 1184px;
-  padding: 24px 48px;
-  margin: 0 auto;
   font-family: "Inter", sans-serif;
   color: var(--main-text);
 }
