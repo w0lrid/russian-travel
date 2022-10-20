@@ -1,4 +1,4 @@
-.lang-selector {
+.header__lang-selector {
   display: flex;
   gap: 18px;
 }

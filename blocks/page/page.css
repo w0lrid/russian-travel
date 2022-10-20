@@ -1,8 +1,22 @@
-body {
+.body {
   background-color: var(--background-dark);
 }
 
 .page {
+  max-width: 1184px;
+  margin: 0 auto;
   font-family: "Inter", sans-serif;
   color: var(--main-text);
+
+  /* font smoothing */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* text size adjust */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  /* rendering */
+  text-rendering: optimizeLegibility;
 }
