@@ -1,4 +1,4 @@
-.cover__title {
+.cover__link-heading {
   z-index: 1;
   max-width: 560px;
   width: 100%;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .cover__title {
+  .cover__link-heading {
     width: 255px;
     margin-bottom: 16px;
     line-height: 35px;

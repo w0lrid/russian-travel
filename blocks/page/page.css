@@ -1,7 +1,3 @@
-.body {
-  background-color: var(--background-dark);
-}
-
 .page {
   max-width: 1184px;
   margin: 0 auto;

@@ -2,6 +2,9 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/variables.css);
 
+/* body styles start here */
+@import url(../blocks/body/body.css);
+
 /* page styles start here */
 @import url(../blocks/page/page.css);
 
@@ -53,9 +56,9 @@
 
 /* cover styles start here */
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__link-heading/cover__link-heading.css);
+@import url(../blocks/cover/__link-subtitle/cover__link-subtitle.css);
 
 /* footer styles start here */
 @import url(../blocks/footer/footer.css);
